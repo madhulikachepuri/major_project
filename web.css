@@ -1,0 +1,195 @@
+.home {
+	color: dodgerblue;
+	text-align: center;
+}
+.register {
+	background-color: rgb(4, 150, 212);
+    color: rgb(18, 2, 2);
+    border-radius: 10px;
+    padding: 20px;
+    
+    cursor: pointer;
+	align-self: center;
+	
+}
+.register:hover{
+    background-color: aqua;
+    color:black;
+    
+}
+.about {
+	color: aqua;
+	
+}
+.aboutdiv {
+	background-color: grey;
+	padding: 5px;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+}
+.Testimonials {
+	text-align: center;
+}
+.timeline {
+	text-align: center;
+}
+.june2 {
+	background-color: greenyellow;
+	text-align: center;
+	padding: 20px;
+    margin: 10%;
+	border-radius: 10px;
+}
+.june5 {
+	background-color: #e91e63;
+	text-align: center;
+	padding: 20px;
+    margin: 10%;
+	border-radius: 10px;
+}
+.june7 {
+	background-color: yellow;
+	text-align: center;
+	padding: 20px;
+    margin: 10%;
+	border-radius: 10px;
+}
+.june9 {
+	background-color: orange;
+	text-align: center;
+	padding: 20px;
+    margin: 10%;
+	border-radius: 10px;
+}
+.read {
+	background-color: rgb(11, 99, 230);
+	color: aliceblue;
+	border-radius: 10px;
+}
+.event {
+	color: blue;
+}
+.allign {
+	text-align: center;
+	background-color: #24262b;
+	color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  body {
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  body {
+    width: 100%;
+}
+}
+.form {
+	font-family: Arial, sans-serif;
+	background-color: #f3f3f3;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+
+	
+}
+.events {
+	color: brown;
+}
+.price {
+	margin: 5%;
+	padding: 50px;
+}
+
+.giri {
+	background-image: url('https://wallpaperaccess.com/full/2116674.jpg') ;
+}
